@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Example 11.08 - Blur passes</title>
+    <script charset="UTF-8" src="../../libs/three/three.js"></script>
+    <script
+      charset="UTF-8"
+      src="../../libs/three/controls/TrackballControls.js"
+    ></script>
+
+    <script src="../../libs/three/postprocessing/EffectComposer.js"></script>
+
+    <script src="../../libs/three/postprocessing/ShaderPass.js"></script>
+    <script src="../../libs/three/postprocessing/RenderPass.js"></script>
+    <script src="../../libs/three/shaders/CopyShader.js"></script>
+    <script src="../../libs/three/shaders/HorizontalBlurShader.js"></script>
+    <script src="../../libs/three/shaders/VerticalBlurShader.js"></script>
+    <script src="../../libs/three/shaders/HorizontalTiltShiftShader.js"></script>
+    <script src="../../libs/three/shaders/VerticalTiltShiftShader.js"></script>
+    <script src="../../libs/three/shaders/TriangleBlurShader.js"></script>
+    <script src="../../libs/three/shaders/FocusShader.js"></script>
+
+    <script src="../../libs/util/Stats.js"></script>
+    <script src="../../libs/util/dat.gui.js"></script>
+
+    <script src="../js/util.js"></script>
+    <script src="./js/11-08.js"></script>
+    <script src="./js/util.js"></script>
+    <link rel="stylesheet" href="../../css/default.css" />
+  </head>
+
+  <body>
+    <div id="webgl-output"></div>
+    <script>
+      (function () {
+        init();
+      })();
+    </script>
+  </body>
+</html>
